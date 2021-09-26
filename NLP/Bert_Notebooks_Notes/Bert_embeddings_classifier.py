@@ -32,3 +32,16 @@ for layer in model.layers[:3]:
     layer.trainable = False
 
 model.summary()
+
+
+#successful architecture for lstm with word2vec
+sequence_input = Input(shape=(MAX_SEQUENCE_LENGTH,), dtype='int32')
+embedding_sequences = embedding_layer(sequence_input)
+x = SpatialDropout1D(0.2)(embedding_sequences)
+x = Conv1D(64, 5, activation='relu')(x)
+x = Bidirectional(LSTM(64, dropout=0.2, recurrent_dropout=0.2))(x)
+x = Dense(512, activation='relu')(x)
+x = Dropout(0.5)(x)
+x = Dense(512, activation='relu')(x)
+outputs = Dense(len(labels), activation='sigmoid')(x)
+model = tf.keras.Model(sequence_input, outputs)
