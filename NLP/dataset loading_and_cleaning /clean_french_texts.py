@@ -10,21 +10,6 @@ import pandas as pd
 import numpy as np
 
 
-# 2 Approches possible pour embeddings
-# ===
-# 
-# + Soit on créer notre modèle d'embedding (par exemple Word2Vec)
-# + Soit on utilise un modèle d'embedding déja entrainé, comme par exemple Glove : https://medium.com/analytics-vidhya/basics-of-using-pre-trained-glove-vectors-in-python-d38905f356db
-
-# ___
-# ___
-# ___
-# 
-# + Dans le cas où on veut créer notre modèle
-# 
-
-# In[67]:
-
 
 from gensim.models.word2vec import Word2Vec
 
