@@ -8,3 +8,6 @@
 
 #mkdir -p project/templates "create a file under another file"
 #nano project/templates/base.html
+
+
+#

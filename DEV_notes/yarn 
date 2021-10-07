@@ -1,0 +1,4 @@
+(myenv) naim@naim-Latitude-E5550:~/onlp_deploy$ cd ui
+(myenv) naim@naim-Latitude-E5550:~/onlp_deploy/ui$ yarn start 
+
+#how to start yarn 
