@@ -1,0 +1,8 @@
+seed_topic_list = [["waste", "toxic", "landfill", "recycling"],
+                  ['environmental','greenhouse gas', 'carbon', 'methane', 'emissions', 'carbon footprint',
+                  'climate change'],['energy' ,'clean energy', 'renewable energy', 'wind', 'solar'],
+                  ['social', 'political', 'lobbying'], ['diversity','women', 'volunteer', 'racism', 'ethics'
+                    ,'equality'], ['human rights', 'child labor' 'community'], 
+                   ['transparency', 'disclosure', 'reporting'], ['legal', 'compliance', 'fatalities', 'safety'],
+                  ['governance', 'directors','accountability', 'compliance'], ['supply chain', 'suppliers', 'manufacturing'],
+                  ['innovation', 'research', 'development'], ['financial', 'revenue', 'profits','sales']]
